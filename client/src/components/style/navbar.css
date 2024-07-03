@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .navbar-nav{
+    padding: 0px 8%;
+  }
+  .navbar a{
+    justify-content: space-between;
+  }
+  .navbar-brand{
+    color: rgb(243, 6, 6) !important;
+    font-size: 3rem;
+  }
+  .navbar ul li a{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    color: white;
+  }
+  .navbar ul li a:hover{
+    color: rgb(20, 219, 126) !important;
+    border-bottom: 0.5px solid rgb(251, 251, 253);
+  }
+  .nav-list{
+    border-radius: 2px;
+    position: absolute;
+    width: 160px;
+    background-color: rgb(36, 38, 39);
+    border-radius: 1px;
+    display: none;
+    list-style: none;
+    z-index: 2;
+    
+  }
+  .menu{
+    overflow: hidden;
+  }
+  .nav-item:hover .nav-list{
+    display: block;
+  }
+  .nav_menu ul li a{
+    color: white;
+  }
+  @media (max-width:400px){
+    .navbar ul li a{
+      text-transform: capitalize;
+      font-size: 1.5rem;
+      color: white;
+    }
+  }

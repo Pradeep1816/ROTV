@@ -1,0 +1,25 @@
+.fotter{
+    background-color: rgb(12, 12, 12);
+    color: white;
+
+}
+.row-content{
+    
+    color: red;
+}
+.head-tag{
+    color: red;
+}
+.fotter ul li{
+    list-style: none;
+}
+.Q_link{
+    text-align: center;
+}
+
+@media (max-width:600px){
+    .fotter{
+        font-size: 0.5rem;
+    }
+    
+}

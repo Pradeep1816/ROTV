@@ -1,0 +1,25 @@
+.dash_list li a{
+    color: red;
+    
+}
+ .navbar-nav .logout li {
+   color: red;
+}
+
+.navbar-nav i{
+    color: white;
+    margin-top: 15px;
+}
+
+.pass_data li{
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+}
+#mainTable{
+    font-size: 12px;
+}
+
+.logout ul{
+    float: left;
+}

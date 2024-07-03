@@ -1,0 +1,244 @@
+.form_container{
+   width: 30%;
+}
+@media screen and (max-width:1000px) {
+    .form_container{
+        width: 45%;
+     }
+}
+@media screen and (max-width:700px) {
+    .form_container{
+        width: 70%;
+    }
+}
+.animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+.login{
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    margin-left: auto;
+} 
+.login_form{
+ background-color: rgba(45, 104, 104, 0.5);
+ color: white;
+}
+.sign{
+    background-size: cover;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-image: url("../images/lock.jpg");
+    background-color: rgb(175, 173, 173);
+    
+}
+.header{
+  height: 50px;
+  background-color: rgb(47, 47, 49);
+  color: white;
+  font-size: 20px;
+
+}
+.head h1{
+    text-align: center;
+    color: white;
+}
+.header strong{
+     margin-left: 8px;
+     margin-top: 10px;
+}
+.form_container{
+    background: url("../images/login1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.form_box{
+    /* background: url(""); */
+    background-size: cover;
+    background-repeat:no-repeat;
+    justify-content: center;
+    background-position:center ;
+    width: 400px;  
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+     position: relative;
+     top: 15%;
+     margin: auto;
+
+}
+
+.input_field{
+    background: rgb(250, 249, 249);
+    width: 95%;
+    display: flex;
+    text-align: center;
+    padding: 10px 0;
+    margin: 18px 0;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+
+}
+.input_field i{
+    margin-top: 5px;
+}
+input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    margin-left: 5px;
+}
+.button_group{
+    color: white;
+}
+.forgot_pass{
+    margin-left: 8px;
+    width: 20%;
+}
+.button_field{
+    width: 30%;
+}
+
+.text_silder{
+    margin-top: 0px;
+    text-align: center;
+    color: red;
+}
+.text_silder p{
+    animation-direction: alternate 10s;
+}
+.marque{
+    color: #213d77;
+    padding-top: 30px;
+    font-size: 2rem;
+}
+.home{
+    background: url('../images/bande.jpg');
+    background-color: rgb(73, 72, 72);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+
+}
+.icons_container{
+    width: 100%;
+    background-color: #142446;
+    padding: 3px 0;
+}
+.icon_text{
+    color: red;
+    width:30%;
+    text-align: center;
+    margin-left: 20%;
+
+}
+.icon_text p{
+    margin-top: 10px;
+    color: white;
+    font-size: 1.2rem;
+}
+.icon{
+    width: 30%;
+    align-items: center;
+}
+.icon a{
+    display: inline-flex;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(243, 243, 247);
+    padding-left: 20px;
+    align-items: center;
+    text-decoration: none;
+}
+
+@media (max-width:700px){
+    .icon{
+      width: 30%;
+    }
+    .icon i{
+        font-size: 20px;
+        
+       }
+       .icon_text p{
+        margin-top: 10px;
+        color: white;
+        font-size: 1rem;
+    }
+ }
+
+
+.row_column{
+    margin-top: 50px;
+}
+.new-reg{
+    background-color: yellow;
+    color: red;
+}
+/* Admin  login page Styling */
+.admin_login{
+    background: url('../images/lock3.jpg');
+    height:  90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+
+}
+
+.admin_form{
+    background-color: rgba(22, 36, 58, 0.70);
+    width: 400px;
+}
+
+
+
+
+.textheading{
+    text-align: center;
+}
+.textheading label{
+    color: #213d77;
+    font-size: 3rem;
+    font-weight: 600;
+    display: block;
+}
+.textheading span{
+    color: #213d77;
+    font-size: 1rem;
+    border-right: 1px solid #213d77;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px
+}
+.user_reg ul li{
+    
+float: right;
+}
+.status{
+    margin-top: 50px;
+}
+
+/* @media (max-width:600px){
+    .admin_login{
+        background: url('../images/lockk.jpg');
+       height:  50vh;
+       background-repeat: no-repeat;
+       background-size: cover;
+   
+   }
+} */
+ @media (max-width:600px){
+    .login_form{
+        margin-top: 0px;
+          padding: 2px;
+       }
+ }
